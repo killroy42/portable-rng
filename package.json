@@ -1,6 +1,6 @@
 {
   "name": "portable-rng",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple, node/browser compatible Alea RNG generator from http://baagoe.com/en/RandomMusings/javascript/",
   "main": "index.js",
   "repository": {
@@ -18,10 +18,25 @@
     "alea",
     "mash"
   ],
-  "author": "Sven Neumann <killroy@gmail.com> (http://svenneumann.com/)",
-  "license": "MIT",
-  "dependencies": {
+  "author": {
+    "name": "Sven Neumann",
+    "email": "killroy@gmail.com",
+    "url": "http://svenneumann.com/"
   },
-  "devDependencies": {
-  }
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ],
+  "readme": "portable-rng\r\n=============\r\n\r\nSimple, node/browser compatible Alea RNG generator from http://baagoe.com/en/RandomMusings/javascript/\r\n",
+  "readmeFilename": "README.md",
+  "gitHead": "b2d6dfcd3a2d393e5bf52bdf86d69726eadd09bd",
+  "bugs": {
+    "url": "https://github.com/killroy42/portable-rng/issues"
+  },
+  "homepage": "https://github.com/killroy42/portable-rng",
+  "_id": "portable-rng@0.1.0",
+  "_shasum": "99c45c406012647cdd6328988927c7ce668c96d1",
+  "_from": "portable-rng@^0.1.0"
 }

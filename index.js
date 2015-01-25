@@ -73,24 +73,12 @@
 			random.version = 'Alea 0.9';
 			random.args = args;
 			return random;
-
 		}(Array.prototype.slice.call(arguments)));
 	};
 
 
 	function createRng() {
-		var seedArgs = arguments;
-		if ((seedArgs.length == 0) && global.crypto && crypto.getRandomValues) {
-			// if we have a crypto library, use it
-			return function () {
-				var array = new Uint32Array(1);
-				crypto.getRandomValues(array);
-				var intVal = array[0];
-				return intVal / (Math.pow(10, (intVal + '').length));
-			};
-		} else {
-			return Alea.apply(Alea, seedArgs);
-		}
+		return Alea.apply(Alea, arguments);
 	}
 
 	// export in common js
