@@ -1,6 +1,6 @@
 {
   "name": "portable-rng",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Simple, node/browser compatible Alea RNG generator from http://baagoe.com/en/RandomMusings/javascript/",
   "main": "index.js",
   "repository": {
